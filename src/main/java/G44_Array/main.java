@@ -6,7 +6,7 @@ public class main {
         System.out.println("Original order " +arrayToList.getArrayList1());
         arrayList.printListString(arrayToList.getArrayList1());
         arrayToList ar = new arrayToList();
-        arrayToList ar1 = new arrayToList("vasa", 3);
+        arrayToList ar1 = new arrayToList("vasa ", 3);
        // ParentClass pcl = new ParentClass("Father");
         ParentClass.print(new ParentClass("Father"));
         ParentClass.getArrayListParent(arrayToList.getArrayList1());
